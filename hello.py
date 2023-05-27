@@ -29,3 +29,8 @@ x=3.4+1
 print(f"x = {x}, type={type(x)}") # same as multiplication
 
 
+x = 4
+y = 3
+print(f"Is x = y? {x == y}")
+print(f"Is x greater than y? {x > y}")
+print(f"Is x smaller than y? {x < y}")
