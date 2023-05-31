@@ -34,3 +34,7 @@ y = 3
 print(f"Is x = y? {x == y}, Type of result {type(x == y)}")
 print(f"Is x greater than y? {x > y}")
 print(f"Is x smaller than y? {x < y}")
+
+# NO EQUAL TEST
+if (x != y):
+    print (f"x is not equal to y")
