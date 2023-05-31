@@ -39,3 +39,17 @@ print(f"squaredListOfEvenNumbers = {squaredListOfEvenNumbers}")
 # Even number: if I devide by two then there should not be any remainder
 # MODULO: %
 print(f"13 % 2 = {13 % 2}")
+
+
+### While Loop
+i = 1
+while i < 2:
+    print(f"i = {i}")
+    i = i + 1
+    print(f"After +1 i = {i}")
+
+
+cmd = ""
+while cmd != "x":
+    cmd = input("what's your command: ")
+    print(f"cmd = {cmd}")
